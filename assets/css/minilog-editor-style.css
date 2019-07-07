@@ -1,0 +1,248 @@
+/*
+Theme Name: Minilog
+Theme URI: https://wordpress.org/themes/minilog/
+/*
+Theme Name: MiniLog
+Description: Used to style the TinyMCE editor.
+*/
+
+body {
+    font-family: 'trebuchet ms', sans-serif;
+    color: #222;
+    background: #fff;
+    font-size: 13.5px;
+    line-height: 1.5;
+    margin: 2rem;
+}
+
+
+/* ----[ Elements ]---- */
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    padding: 0;
+    clear: both;
+    text-shadow: 1px 1px 2px #ddd;
+    margin: 1.414rem 0 0.2rem;
+    line-height: 1.2;
+	text-transform:uppercase;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 17px;
+    font-size: 1.296em;
+}
+
+h2 {
+    font-size: 16px;
+    font-size: 1.215em;
+}
+
+h3 {
+    font-size: 15px;
+    font-size: 1.138em;
+}
+
+h4 {
+    font-size: 14px;
+    font-size: 1.067em;
+}
+
+h5 {
+    font-size: 13.5px;
+    font-size: 1;
+}
+
+h6 {
+    font-size: 13px;
+    font-size: 0.963em
+}
+
+p {
+    display: block;
+    margin: 0 0 1rem 0;
+}
+
+blockquote {
+    quotes: "" "";
+}
+
+blockquote:before, q:before, blockquote:after, q:after {
+    content: "";
+    content: none;
+}
+
+blockquote {
+    margin-bottom: 0.7143rem;
+    padding: 0.7143rem;
+    background-color: #fffbed;
+    border-left: 2px solid #fff1af;
+}
+
+q {
+    quotes: "\00ab" "\00bb";
+}
+
+blockquote *:first-child {
+    margin-top: 0
+}
+
+blockquote *:last-child {
+    margin-bottom: 0
+}
+
+li blockquote {
+    margin: .5rem 0 1rem 0
+}
+
+code, kbd, tt, var, samp, pre {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+pre {
+    font-size: 0.9em;
+    background: #F5F2F0;
+    color: #444;
+    border: 1px solid #ddd;
+    line-height: 1.3em;
+    padding: 0.5714rem;
+    display: block;
+    margin: 2rem 1rem;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-radius: 2px;
+}
+
+code {
+    padding: 0.1429rem 4px;
+    font-size: 0.9em;
+    color: #c7254e;
+    background-color: #f9f2f4;
+    border-radius: 2px;
+}
+
+kbd {
+    box-shadow: 0 1px gray;
+    padding: 0.1429rem 0.2857rem;
+    font-size: 0.9em;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #000;
+    border-radius: 2px;
+}
+
+dfn, cite, em, var, address, i {
+    font-style: italic;
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup {
+    top: -0.5em;
+}
+
+sub {
+    bottom: -0.25em;
+}
+
+big {
+    font-size: 125%;
+}
+
+small {
+    font-size: 70%;
+}
+
+
+/* ----[ Lists ]---- */
+
+ul, menu, dir {
+    display: block;
+    padding-left: 2rem;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 2.857rem;
+}
+
+ol {
+    padding-left: 2rem;
+    display: block;
+    list-style-type: decimal;
+    -webkit-margin-before: 1rem;
+    -webkit-margin-after: 1rem;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 2.857rem;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+ul ul, ol ul {
+    list-style-type: circle;
+}
+
+ol ol ul, ol ul ul, ul ol ul, ul ul ul {
+    list-style-type: square;
+}
+
+ol ul, ul ol, ul ul, ol ol {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+
+/* ----[ Table ]---- */
+
+table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table caption {
+    font-size: 1em;
+    margin: .5rem 0 .75rem;
+}
+
+table tr {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: .35rem;
+}
+
+table th, table td {
+    padding: .625rem;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+table th {
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+caption {
+    text-align: left;
+}

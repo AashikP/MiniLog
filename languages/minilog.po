@@ -1,0 +1,146 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: minilog\n"
+"POT-Creation-Date: 2017-11-20 14:20+0530\n"
+"PO-Revision-Date: 2017-11-20 14:20+0530\n"
+"Last-Translator: \n"
+"Language-Team: AashikP\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: F:/xampp/htdocs/demo/wp-content/themes/minilog\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_nx;esc_attr__;esc_html__;_n;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4 search.php:30
+msgid "Nothing found"
+msgstr ""
+
+#: 404.php:5
+msgid ""
+"<p>Apologies, but no entries were found. Perhaps searching can help.</p>"
+msgstr ""
+
+#: archive.php:14 search.php:10 single.php:7
+msgid " by "
+msgstr ""
+
+#: archive.php:32 search.php:21
+msgid "&laquo; Previous"
+msgstr ""
+
+#: archive.php:33 search.php:22
+msgid "Next &raquo;"
+msgstr ""
+
+#: comments.php:11
+#, php-format
+msgid "One comment on &ldquo; %2$s &rdquo;"
+msgstr ""
+
+#: comments.php:30
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:8
+msgid ""
+"Minilog theme by <a href=\"https://errorlog.in/\">ErrorLog</a>. Proudly "
+"powered by WordPress."
+msgstr ""
+
+#: functions.php:67
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:77
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:97
+#, php-format
+msgid "Read more &raquo;<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:121
+msgid "Home"
+msgstr ""
+
+#: functions.php:126
+msgid "Category"
+msgstr ""
+
+#: functions.php:130
+msgid "Search results for "
+msgstr ""
+
+#: functions.php:190
+msgid "Posts tagged "
+msgstr ""
+
+#: functions.php:196
+msgid "Articles posted by "
+msgstr ""
+
+#: functions.php:200
+msgid "Error 404"
+msgstr ""
+
+#: functions.php:206
+msgid "Page"
+msgstr ""
+
+#: header.php:36
+msgid "Menu &#9776;"
+msgstr ""
+
+#: search.php:31
+msgid ""
+"<p>Apologies, but no entries were found. Please try searching again.</p>"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Example Widget"
+msgstr ""
+
+#: sidebar.php:14
+#, php-format
+msgid ""
+"This is an example widget to show how the Primary sidebar looks by default. "
+"You can add custom widgets from the %1$swidgets screen%2$s in the admin."
+msgstr ""
+
+#: single.php:16
+msgid "Pages:"
+msgstr ""
+
+#: single.php:26
+msgid "Categories: "
+msgstr ""
+
+#: single.php:27
+msgid "Tags: "
+msgstr ""
+
+#: single.php:37
+#, php-format
+msgid "About &ldquo;%s&rdquo;"
+msgstr ""
+
+#: single.php:45
+msgid "Other posts &raquo;"
+msgstr ""
+
+#: single.php:55
+msgid "Previous Post: %link"
+msgstr ""
+
+#: single.php:56
+msgid "Next Post: %link"
+msgstr ""
