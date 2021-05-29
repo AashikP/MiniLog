@@ -1,16 +1,26 @@
-	<?php get_header(); // Loads the header.php template.	?>
+<?php
+/**
+ * Page template
+ *
+ * Template to display pages
+ *
+ * @package Minilog
+ */
 
-	<div class="mini-page">
-	<div class="entry-header"><?php the_title(); ?></div>
+get_header();
+?>
 
-	<?php 
-	while ( have_posts() ) : the_post();
-		the_content();  //Loads the page content
-	endwhile; // have_posts()
-	?>
+<div class="mini-page">
+<div class="entry-header"><?php the_title(); ?></div>
 
-	</div> <!-- /mini-page-->
+<?php
+while ( have_posts() ) :
+	the_post();
+	the_content();
+endwhile;
+?>
 
+</div> <!-- /mini-page-->
 </div><!-- /container -->
 
-	<?php get_footer(); // Loads the footer.php template.	?>
+<?php get_footer(); ?>

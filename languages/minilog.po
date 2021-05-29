@@ -1,146 +1,129 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: minilog\n"
-"POT-Creation-Date: 2017-11-20 14:20+0530\n"
-"PO-Revision-Date: 2017-11-20 14:20+0530\n"
+"Project-Id-Version: Minilog\n"
+"POT-Creation-Date: 2020-08-29 12:43+0530\n"
+"PO-Revision-Date: 2020-08-29 12:51+0530\n"
 "Last-Translator: \n"
-"Language-Team: AashikP\n"
-"Language: en\n"
+"Language-Team: \n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
-"X-Poedit-Basepath: F:/xampp/htdocs/demo/wp-content/themes/minilog\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Poedit-KeywordsList: __;_e;_nx;esc_attr__;esc_html__;_n;esc_html_e\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html__;_nx\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: 404.php:4 search.php:30
+#: 404.php:13 search.php:45
 msgid "Nothing found"
 msgstr ""
 
-#: 404.php:5
-msgid ""
-"<p>Apologies, but no entries were found. Perhaps searching can help.</p>"
+#: 404.php:14 search.php:46
+msgid "Apologies, but no entries were found. Please try searching again."
 msgstr ""
 
-#: archive.php:14 search.php:10 single.php:7
+#: archive.php:31 search.php:24 single.php:21
 msgid " by "
 msgstr ""
 
-#: archive.php:32 search.php:21
+#: archive.php:44 search.php:36
 msgid "&laquo; Previous"
 msgstr ""
 
-#: archive.php:33 search.php:22
+#: archive.php:45 search.php:37
 msgid "Next &raquo;"
 msgstr ""
 
-#: comments.php:11
-#, php-format
-msgid "One comment on &ldquo; %2$s &rdquo;"
-msgstr ""
-
-#: comments.php:30
+#: comments.php:37
 msgid "Comments are closed."
 msgstr ""
 
-#: footer.php:8
-msgid ""
-"Minilog theme by <a href=\"https://errorlog.in/\">ErrorLog</a>. Proudly "
-"powered by WordPress."
-msgstr ""
-
-#: functions.php:67
+#: functions.php:60
 msgid "Top Menu"
 msgstr ""
 
-#: functions.php:68
+#: functions.php:61
 msgid "Footer Menu"
 msgstr ""
 
-#: functions.php:77
+#: functions.php:75
 msgid "Sidebar"
 msgstr ""
 
-#: functions.php:97
+#: functions.php:104
 #, php-format
 msgid "Read more &raquo;<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: functions.php:121
+#: functions.php:128
 msgid "Home"
 msgstr ""
 
-#: functions.php:126
+#: functions.php:134
 msgid "Category"
 msgstr ""
 
-#: functions.php:130
+#: functions.php:137
 msgid "Search results for "
 msgstr ""
 
-#: functions.php:190
+#: functions.php:200
 msgid "Posts tagged "
 msgstr ""
 
-#: functions.php:196
+#: functions.php:206
 msgid "Articles posted by "
 msgstr ""
 
-#: functions.php:200
+#: functions.php:210
 msgid "Error 404"
 msgstr ""
 
-#: functions.php:206
+#: functions.php:217
 msgid "Page"
 msgstr ""
 
-#: header.php:36
+#: header.php:49
 msgid "Menu &#9776;"
 msgstr ""
 
-#: search.php:31
-msgid ""
-"<p>Apologies, but no entries were found. Please try searching again.</p>"
-msgstr ""
-
-#: sidebar.php:12
+#: sidebar.php:21
 msgid "Example Widget"
 msgstr ""
 
-#: sidebar.php:14
+#: sidebar.php:23
 #, php-format
 msgid ""
 "This is an example widget to show how the Primary sidebar looks by default. "
 "You can add custom widgets from the %1$swidgets screen%2$s in the admin."
 msgstr ""
 
-#: single.php:16
+#: single.php:30
 msgid "Pages:"
 msgstr ""
 
-#: single.php:26
+#: single.php:41
 msgid "Categories: "
 msgstr ""
 
-#: single.php:27
+#: single.php:42
 msgid "Tags: "
 msgstr ""
 
-#: single.php:37
+#: single.php:55
 #, php-format
 msgid "About &ldquo;%s&rdquo;"
 msgstr ""
 
-#: single.php:45
+#: single.php:67
 msgid "Other posts &raquo;"
 msgstr ""
 
-#: single.php:55
+#: single.php:77
 msgid "Previous Post: %link"
 msgstr ""
 
-#: single.php:56
+#: single.php:78
 msgid "Next Post: %link"
 msgstr ""
